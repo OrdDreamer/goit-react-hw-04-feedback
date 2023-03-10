@@ -1,0 +1,26 @@
+.buttonsContainer {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.rateButton {
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #d0d7de;
+  border-left: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.rateButton:last-child {
+  border-right: none;
+}
+
+.rateButton:hover {
+  background-color: rgba(243, 243, 243, 0.5);
+}
+
+.rateButton:active {
+  background-color: #f3f3f3;
+}
